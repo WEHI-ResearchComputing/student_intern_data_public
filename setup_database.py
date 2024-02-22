@@ -52,9 +52,19 @@ cursor.execute('''
         post_internship_ambiguity TEXT,
         post_internship_complexity TEXT,
         post_internship_summary_rating_internal TEXT,
-        post_internship_summary_rating_external TEXT
+        post_internship_summary_rating_external TEXT,
+        gitHub_username TEXT,
+        extra_notes TEXT,
+        remote_internship TEXT,
+        code_of_conduct TEXT,
+        facilitator_follower TEXT,
+        listener_or_talker TEXT,
+        thinker_brainstormer TEXT,
+        why_applied TEXT,
+        projects_recommended TEXT
     )
 ''')
+
 
 # Commit the changes and close the connection
 conn.commit()
